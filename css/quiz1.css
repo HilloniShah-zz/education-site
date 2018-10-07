@@ -1,0 +1,62 @@
+hr {
+    height: 12px;
+    border: 0;
+    box-shadow: inset 0 12px 12px -12px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+  padding: 40px;
+}
+
+div.top
+{
+	width: 98%;	
+	float: left;
+	background-color: #FFC;
+	padding: 1%;
+}
+
+div.top div a
+{
+	float: right;
+	background-color: black;
+	color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+div.top div a:hover
+{
+	color: deeppink;
+}
+
+body
+{
+	margin: 0;
+}
+div.top
+{
+	width: 98%;	
+	float: left;
+	background-color: #FFC;
+	padding: 1%;
+}
+
+div.top div a
+{
+	float: right;
+	background-color: black;
+	color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+div.top div a:hover
+{
+	color: deeppink;
+}
+
+body
+{
+	margin: 0;
+}

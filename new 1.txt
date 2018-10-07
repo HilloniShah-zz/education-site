@@ -1,0 +1,8 @@
+var que1 = {
+				stat:<?php echo $a["Question"] ?>,
+				op1: <?php echo $a["OpA"] ?>,
+				op2: <?php echo $a["OpB"] ?>,
+				op3: <?php echo $a["OpC"] ?>,
+				op4: <?php echo $a["OpD"] ?>,
+				correct: <?php echo $a["ans"] ?>
+			}

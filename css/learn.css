@@ -1,0 +1,43 @@
+#class-selection li {
+	padding: 20px;
+	list-style-type: none;
+}
+
+div.top img
+{
+	width: 150px;
+	height: 150px;
+	float: left;
+	background-color:darkblue;
+}
+
+div.top
+{
+	width: 98%;	
+	float: left;
+	background-color: white;
+	padding: 1%;
+}
+
+div.top div a
+{
+	/*float: right;
+	float: TOP; */
+	position: absolute;
+	top:10px;
+	right:10px;
+	background-color: black;
+	color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+div.top div a:hover
+{
+	color: deeppink;
+}
+
+body
+{
+	margin: 0;
+}

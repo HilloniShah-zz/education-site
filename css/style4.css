@@ -1,0 +1,48 @@
+@charset "utf-8";
+
+body
+{
+	margin: 0;
+}
+
+div.top
+{
+	width: 98%;	
+	height:600px;;
+	float: left;
+	background-color: white;
+	padding: 1%;
+}
+
+div.top img
+{
+	width: 100px;
+	height: 100px;
+	float: left;
+	background-color:darkblue;
+}
+
+div.top div a
+{
+	float: right;
+	background-color: black;
+	color: white;
+	padding:10px;
+	text-decoration: none;
+}
+
+
+div.bottom
+{
+	background-color: black;
+	width: 100%;
+	color: whitesmoke;
+	text-align: center;
+	/*font-size: 30px;*/
+}
+
+
+
+
+
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>(L)EARN</title>
+	<title>Quiz</title>
+	<meta charset="UTF-8">
+	<link href="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="css/quiz.css">
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/core.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+</head>
+<body>
+
+	
+		<div class="top" >
+		<img src="images/logo.png" />
+        <div>
+			<a href="index.php">HOME</a>
+		</div>
+		</div>
+	<div class="container">
+		<form action="takequiz.php" method="POST">
+			<div class="form-group">
+		  <label for="sel1">Select Class:</label>
+		  <select class="form-control" id="sel1" name="standard">
+		    <option value="8">8</option>
+		    <option value="9">9</option>
+		    <option value="10">10</option>
+		    <option value="11">11</option>
+		    <option value="12">12</option>
+		  </select>
+		</div>
+		<div class="form-group">
+		  <label for="sel1">Select Subject:</label>
+		  <select class="form-control" id="subject" name="subject">
+		    <option value="Mathematics">Maths</option>
+		    <option value="Physics">Physics</option>
+		    <option value="Chemistry">Chemistry</option>
+		    <option value="Biology">Biology</option>
+		  </select>
+		</div>
+		<div class="form-group">
+		  <label for="sel1">Select Chapter:</label>
+		  <select class="form-control" id="chapter" name="chapter">
+		    <option value="1">1</option>
+		    <option value="2">2</option>
+		    <option value="3">3</option>
+		    <option value="4">4</option>
+		  </select>
+		</div>
+		<div class="form-group">
+		  <label for="sel1">Select Level:</label>
+		  <select class="form-control" id="level" name="level">
+		    <option value="1">Easy</option>
+		    <option value="2">Moderate</option>
+		    <option value="3">Tough</option>
+		    <option value="4">Random</option>
+		  </select>
+		  <br>
+		</div>
+		<button class="btn btn-success"  >Go</button>
+		</form>
+	</div>
+</body>
+</html>
